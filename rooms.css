@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flexbox-event {
+  background-image: url(Blurs/Rooms\ Blur.png);
+  background-repeat: no-repeat;
+  background-size: 59vw;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 90px;
+  padding: 72px 45px;
+  align-items: center;
+  text-align: center;
+}
+
+.flexbox-event .top-heading h1 {
+  background: linear-gradient(90deg, #ea05ef 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.flexbox-event .bottom-heading h1 {
+  background: linear-gradient(90deg, #e7ddee 0%, #940cff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.flexbox-event h1 {
+  font-size: 51px;
+}
+
+.experience-container {
+background: linear-gradient(360deg, #020631 34.53%, #A90EF1 100%);
+
+}

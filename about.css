@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #020631;
+}
+
+.Asection {
+  height: 100vh;
+  background-image: url("Blurs/Blurs\ -\ About\ Us.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 0px;
+}
+.left-div a {
+  text-decoration: none;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.top-about-div h1 {
+  font-size: 51px;
+  background: linear-gradient(90deg, #ffffff 0%, #f108b2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bottom-about-div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.bottom-about-div h2 {
+  font-size: 38px;
+  background: linear-gradient(90deg, #ffffff 0%, #3da2ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bottom-about-div .paras {
+  display: flex;
+  flex-direction: column;
+  width: 89%;
+  gap: 23px;
+}
+
+/* Set Apart */
+
+.set-apart-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 62px 89px;
+  gap: 35px;
+  padding-bottom: 8vh;
+  background-image: url("Blurs/Apart\ -\ Blur.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 0px;
+}
+
+.top-apart {
+  color: white;
+  font-size: 22px;
+}
+
+.top-apart h1 {
+  font-size: 38px;
+  background: linear-gradient(90deg, #ffffff 0%, #7000ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.Apart-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 37px;
+}
+
+.apart-box {
+  width: 41vw;
+  background: linear-gradient(180deg, rgba(2, 6, 49, 0.63) 0%, #9e00ff 100%);
+  border-radius: 23px;
+  height: 38vh;
+}
+
+.about-box-para {
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+}
+
+.Fb-Banner {
+  background-image: url("Blurs/Blurs\ -\ Facebook.png");
+  background-repeat: no-repeat;
+  background-size: 70vw;
+  background-position: center;
+  height: 50vh;
+  padding: 63px 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Fb-Content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  line-height: 29px;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+}
+
+.Fb-Content h1 {
+  font-size: 50px;
+}
+.Fb-Content span {
+  background: linear-gradient(90deg, #09cffb 54.09%, #0f43fd 92.56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.Fb-Content p {
+  font: 14px;
+}
+
+.Fb-Content button {
+  width: 176px;
+  height: 53px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #00d8f5 0%, #0047fd 100%);
+}
